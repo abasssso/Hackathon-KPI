@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- style start -->
+    <style>
+      body {
+        background: url(https://www.pixelstalk.net/wp-content/uploads/images6/Cute-Desktop-Wallpaper-HD-Free-download.png)
+          no-repeat;
+        background-size: 100%;
+      }
+    </style>
+    <!-- style end -->
+
+    <!-- from start -->
+    <input type="text" id="name" placeholder="Name" />
+    <input type="text" id="surname" placeholder="Surname" />
+    <input type="text" id="contacts" placeholder="Contacts" />
+    <input type="text" id="week" placeholder="Week KPI" />
+    <input type="text" id="month" placeholder="Month KPI" />
+    <button id="create-user">Create</button>
+    <div id="list"></div>
+    <!-- search form start -->
+    <input id="inp-search" type="text" placeholder="Search" />
+    <!-- search form end -->
+
+    <!-- form end -->
+
+    <!-- module start -->
+    <div id="modal-edit">
+      <div id="modal-edit-body">
+        <button id="modal-edit-close">x</button>
+        <div id="modal-edit-inps">
+          <input type="text" id="inp-edit-name" />
+          <input type="text" id="inp-edit-surname" />
+          <input type="text" id="inp-edit-contacts" />
+          <input type="text" id="inp-edit-week" />
+          <input type="text" id="inp-edit-month" />
+          <input type="text" name="" id="inpEditedId" />
+          <button id="btn-save-edit">Save</button>
+        </div>
+      </div>
+    </div>
+    <!-- module end -->
+
+    <!-- pagination start -->
+    <div id="pagination"></div>
+    <!-- pagination end -->
+    <script src="./main.js"></script>
+  </body>
+</html>
